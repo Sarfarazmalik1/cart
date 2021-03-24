@@ -1,0 +1,65 @@
+header{
+    
+    min-height: 20px;
+     margin: 3px;
+     padding: 10px;
+     overflow: hidden;
+     background:blue;
+ }
+ 
+ .nav-cart{
+     cursor: pointer;
+     position: relative;
+     float: right;
+     padding-left: 25px;
+     padding-right: 10px;
+     
+ }
+ .nav-cart span{
+     
+     position: absolute;
+     background: crimson;
+     font-size: 10px;
+     color: white;
+     padding: 3px 4px;
+     
+     right: -2px;
+     border-radius: 30%;
+     z-index: 0;
+    
+ 
+ }
+ 
+ nav .nav-search{
+     cursor: pointer;
+     position: relative;
+     float: right;
+     
+ }
+ nav .nav-star a{
+     cursor: pointer;
+     float: left;  
+     margin-top: 3px;
+     margin-left: 10px;
+    
+ 
+ }
+ header nav .nav-star img{
+     position: relative;
+     bottom: 50%;
+    transform: translate(-10%,-10%);
+    
+ }
+ header nav img{
+     position: relative;
+     
+     margin-top: 10px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
